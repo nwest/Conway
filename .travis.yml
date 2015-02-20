@@ -1,0 +1,9 @@
+language: objective-c
+notifications:
+  email: false
+install:
+  - bundle install
+  - bundle exec pod install
+script:
+  - xctool clean build -workspace Conway.xcworkspace -scheme Conway
+  - xctool test -project Conway.xcworkspace -scheme Conway
