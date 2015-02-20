@@ -6,4 +6,4 @@ install:
   - bundle exec pod install
 script:
   - xctool clean build -workspace Conway.xcworkspace -scheme Conway
-  - xctool test -project Conway.xcworkspace -scheme Conway
+  - xctool test -workspace Conway.xcworkspace -scheme Conway -sdk iphonesimulator
