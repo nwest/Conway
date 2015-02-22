@@ -13,7 +13,12 @@
 		E709B0751A97CBA0007F983D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709B0731A97CBA0007F983D /* Main.storyboard */; };
 		E709B0771A97CBA0007F983D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E709B0761A97CBA0007F983D /* Images.xcassets */; };
 		E709B07A1A97CBA0007F983D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E709B0781A97CBA0007F983D /* LaunchScreen.xib */; };
-		E709B0861A97CBA1007F983D /* ConwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709B0851A97CBA1007F983D /* ConwayTests.swift */; };
+		E79669E41A9A4D75007AE89D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669E31A9A4D75007AE89D /* Coordinate.swift */; };
+		E79669E61A9A4DEB007AE89D /* CoordinateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669E51A9A4DEB007AE89D /* CoordinateSpec.swift */; };
+		E79669E71A9A4EC8007AE89D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669E31A9A4D75007AE89D /* Coordinate.swift */; };
+		E79669E91A9A4F31007AE89D /* CellSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669E81A9A4F31007AE89D /* CellSpec.swift */; };
+		E79669EA1A9A4F76007AE89D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDD56B1A97E4DA00EBF23F /* Cell.swift */; };
+		E7BDD56C1A97E4DA00EBF23F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDD56B1A97E4DA00EBF23F /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,10 @@
 		E709B0791A97CBA0007F983D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E709B07F1A97CBA1007F983D /* ConwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E709B0841A97CBA1007F983D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E709B0851A97CBA1007F983D /* ConwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConwayTests.swift; sourceTree = "<group>"; };
+		E79669E31A9A4D75007AE89D /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		E79669E51A9A4DEB007AE89D /* CoordinateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateSpec.swift; sourceTree = "<group>"; };
+		E79669E81A9A4F31007AE89D /* CellSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSpec.swift; sourceTree = "<group>"; };
+		E7BDD56B1A97E4DA00EBF23F /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,8 @@
 				E709B0761A97CBA0007F983D /* Images.xcassets */,
 				E709B0781A97CBA0007F983D /* LaunchScreen.xib */,
 				E709B06D1A97CBA0007F983D /* Supporting Files */,
+				E7BDD56B1A97E4DA00EBF23F /* Cell.swift */,
+				E79669E31A9A4D75007AE89D /* Coordinate.swift */,
 			);
 			path = Conway;
 			sourceTree = "<group>";
@@ -122,8 +132,9 @@
 		E709B0821A97CBA1007F983D /* ConwayTests */ = {
 			isa = PBXGroup;
 			children = (
-				E709B0851A97CBA1007F983D /* ConwayTests.swift */,
 				E709B0831A97CBA1007F983D /* Supporting Files */,
+				E79669E51A9A4DEB007AE89D /* CoordinateSpec.swift */,
+				E79669E81A9A4F31007AE89D /* CellSpec.swift */,
 			);
 			path = ConwayTests;
 			sourceTree = "<group>";
@@ -289,6 +300,8 @@
 			files = (
 				E709B0721A97CBA0007F983D /* ViewController.swift in Sources */,
 				E709B0701A97CBA0007F983D /* AppDelegate.swift in Sources */,
+				E7BDD56C1A97E4DA00EBF23F /* Cell.swift in Sources */,
+				E79669E41A9A4D75007AE89D /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E709B0861A97CBA1007F983D /* ConwayTests.swift in Sources */,
+				E79669E61A9A4DEB007AE89D /* CoordinateSpec.swift in Sources */,
+				E79669EA1A9A4F76007AE89D /* Cell.swift in Sources */,
+				E79669E91A9A4F31007AE89D /* CellSpec.swift in Sources */,
+				E79669E71A9A4EC8007AE89D /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
