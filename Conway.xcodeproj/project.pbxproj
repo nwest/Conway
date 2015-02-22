@@ -18,6 +18,9 @@
 		E79669E71A9A4EC8007AE89D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669E31A9A4D75007AE89D /* Coordinate.swift */; };
 		E79669E91A9A4F31007AE89D /* CellSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669E81A9A4F31007AE89D /* CellSpec.swift */; };
 		E79669EA1A9A4F76007AE89D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDD56B1A97E4DA00EBF23F /* Cell.swift */; };
+		E79669EC1A9A52F0007AE89D /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669EB1A9A52F0007AE89D /* Board.swift */; };
+		E79669ED1A9A52F0007AE89D /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669EB1A9A52F0007AE89D /* Board.swift */; };
+		E79669EF1A9A5361007AE89D /* BoardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79669EE1A9A5361007AE89D /* BoardSpec.swift */; };
 		E7BDD56C1A97E4DA00EBF23F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDD56B1A97E4DA00EBF23F /* Cell.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,8 @@
 		E79669E31A9A4D75007AE89D /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		E79669E51A9A4DEB007AE89D /* CoordinateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateSpec.swift; sourceTree = "<group>"; };
 		E79669E81A9A4F31007AE89D /* CellSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSpec.swift; sourceTree = "<group>"; };
+		E79669EB1A9A52F0007AE89D /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		E79669EE1A9A5361007AE89D /* BoardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardSpec.swift; sourceTree = "<group>"; };
 		E7BDD56B1A97E4DA00EBF23F /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +122,7 @@
 				E709B06D1A97CBA0007F983D /* Supporting Files */,
 				E7BDD56B1A97E4DA00EBF23F /* Cell.swift */,
 				E79669E31A9A4D75007AE89D /* Coordinate.swift */,
+				E79669EB1A9A52F0007AE89D /* Board.swift */,
 			);
 			path = Conway;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 				E709B0831A97CBA1007F983D /* Supporting Files */,
 				E79669E51A9A4DEB007AE89D /* CoordinateSpec.swift */,
 				E79669E81A9A4F31007AE89D /* CellSpec.swift */,
+				E79669EE1A9A5361007AE89D /* BoardSpec.swift */,
 			);
 			path = ConwayTests;
 			sourceTree = "<group>";
@@ -300,6 +307,7 @@
 			files = (
 				E709B0721A97CBA0007F983D /* ViewController.swift in Sources */,
 				E709B0701A97CBA0007F983D /* AppDelegate.swift in Sources */,
+				E79669EC1A9A52F0007AE89D /* Board.swift in Sources */,
 				E7BDD56C1A97E4DA00EBF23F /* Cell.swift in Sources */,
 				E79669E41A9A4D75007AE89D /* Coordinate.swift in Sources */,
 			);
@@ -311,6 +319,8 @@
 			files = (
 				E79669E61A9A4DEB007AE89D /* CoordinateSpec.swift in Sources */,
 				E79669EA1A9A4F76007AE89D /* Cell.swift in Sources */,
+				E79669ED1A9A52F0007AE89D /* Board.swift in Sources */,
+				E79669EF1A9A5361007AE89D /* BoardSpec.swift in Sources */,
 				E79669E91A9A4F31007AE89D /* CellSpec.swift in Sources */,
 				E79669E71A9A4EC8007AE89D /* Coordinate.swift in Sources */,
 			);

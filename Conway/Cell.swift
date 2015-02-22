@@ -13,7 +13,11 @@ enum State {
     case Off
 }
 
-struct Cell {
+struct Cell: Equatable {
     let location: Coordinate
     let state: State
+}
+
+func ==(lhs: Cell, rhs: Cell) -> Bool {
+    return lhs.location == rhs.location && lhs.state == rhs.state
 }
