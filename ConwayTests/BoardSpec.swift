@@ -40,6 +40,16 @@ class BoardSpec: QuickSpec {
                 }
             }
 
+            describe("toggle") {
+                it ("toggles the cell at a location") {
+                    let location = Coordinate(x: 2, y: 2)
+                    let board = generateBoard(5, 5)
+                    let newBoard = board.toggle(location)
+                    let (cell, index) = newBoard.cellAtLocation(location)
+                    expect(cell!.state == .On).to(beTrue())
+                }
+            }
+
             describe("generateBoard") {
                 it ("creates a Board with a width and height") {
                     let board = generateBoard(5, 5)

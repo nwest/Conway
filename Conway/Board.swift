@@ -31,6 +31,15 @@ public struct Board {
         }
         return (nil, nil)
     }
+
+    public func toggle(location: Coordinate) -> Board {
+        let (cell, index) = cellAtLocation(location)
+        if let unwrappedCell = cell {
+            let inverted = unwrappedCell.toggle()
+            return addCell(inverted)
+        }
+        return self
+    }
 }
 
 func generateBoard(width:Int, height:Int) -> Board {
