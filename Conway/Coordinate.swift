@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct Coordinate: Equatable {
+public struct Coordinate: Equatable {
     let x:Int
     let y:Int
 }
 
-func ==(lhs: Coordinate, rhs: Coordinate) -> Bool {
+public func ==(lhs: Coordinate, rhs: Coordinate) -> Bool {
     return lhs.x == rhs.x && lhs.y == rhs.y
 }

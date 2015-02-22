@@ -8,16 +8,16 @@
 
 import Foundation
 
-enum State {
+public enum State {
     case On
     case Off
 }
 
-struct Cell: Equatable {
+public struct Cell: Equatable {
     let location: Coordinate
     let state: State
 }
 
-func ==(lhs: Cell, rhs: Cell) -> Bool {
-    return lhs.location == rhs.location && lhs.state == rhs.state
+public func ==(lhs: Cell, rhs: Cell) -> Bool {
+    return lhs.location == rhs.location
 }
